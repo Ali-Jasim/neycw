@@ -1,0 +1,10 @@
+.who-container {
+  display: flex;
+  text-align: center;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+}

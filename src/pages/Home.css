@@ -1,0 +1,54 @@
+.home-container {
+  min-height: 65vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-text-container {
+  align-items: center;
+  text-align: start;
+}
+
+.img-container {
+  height: fit-content;
+  width: fit-content;
+}
+
+.learn {
+  height: fit-content;
+  width: 20rem;
+  background-color: black;
+  border: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.learn:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+.home-content {
+  width: 90vw;
+}
+
+@media (max-width: 768px) {
+  .home-img {
+    width: 100%;
+  }
+  .home-text-container {
+    text-align: center;
+  }
+  .learn {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-img {
+    width: 40vw;
+    height: 70vh;
+  }
+}
