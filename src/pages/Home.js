@@ -12,16 +12,24 @@ const Home = () => {
 
             <Container fluid className='home-container'>
                 <Row className='home-content'>
-                    <Col xs={6} md={6} className=' img-container'>
-                        <img className='home-img' src={homeimg} />
-
+                    <Col xs={12} md={8} className='img-container'>
+                        <img className='home-img w-60' src={homeimg} />
                     </Col>
-                    <Col xs={12} md={5} className='home-text-container'>
-                        <h1 class="display-1 home-text">A VOLUNTARY YOUTH BODY</h1>
+
+                    <Col xs={12} md={4} className='home-text-container'>
+                        <h1 class="display-1 home-text">Newcomer Ethnocultural Youth Council Of Winnipeg</h1>
                     </Col>
                 </Row>
                 <Row>
-                    <Button className='learn'><h4 className='mt-2'>Learn More</h4></Button>
+                    <Col>
+                        <Button href='/about' variant='dark' className='nav-button'><h4 className='mt-1'>Learn More</h4></Button>
+                    </Col>
+                    <Col>
+                        <Button href='/resources' variant='dark' className='nav-button'><h4 className='mt-1'>Resources</h4></Button>
+                    </Col>
+                    <Col>
+                        <Button href='/contact' variant='dark' className='nav-button'><h4 className='mt-1'>Contact</h4></Button>
+                    </Col>
                 </Row>
             </Container>
 

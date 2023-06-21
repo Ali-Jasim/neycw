@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import './About.css'
-import { FaNewspaper, FaCity, FaFlipboard, FaEnvira } from 'react-icons/fa';
+import { FaConnectdevelop, FaThinkPeaks, FaSkyatlas, FaPushed } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -15,8 +15,8 @@ const About = () => {
                     <h1 className='display-1'>Who are we?</h1>
                 </Row>
                 <Row>
-                    <Col xs={12} md={6} className='info-card'>
-                        <h2> <FaNewspaper size={100} /> Terms of Reference</h2>
+                    <Col xs={12} md={6} className='info-card-light'>
+                        <h2> <FaConnectdevelop size={100} /> Terms of Reference</h2>
 
                         <p>
                             The Immigration Partnership Winnipeg is a Local Immigration Partnership. Local Immigration Partnerships (LIPs) are multi-sectoral collectives that bring a new form of collaboration, at the community-level, to newcomer settlement and integration. They are designed to establish, facilitate and implement a community-wide strategy for improving the settlement and integration of immigrants. The LIP model is having success across Canada with more than 70 LIPs across the country.
@@ -24,14 +24,14 @@ const About = () => {
                         </p>
                     </Col>
                     <Col xs={12} md={6} className='info-card'>
-                        <h2> <FaCity size={100} /> Background</h2>
+                        <h2> <FaThinkPeaks size={100} /> Background</h2>
 
                         <p>
                             The Newcomer Ethnocultural Youth Council of Winnipeg (NEYCW) is a voluntary youth body established with the ultimate goal of advising social, settlement organizations, governments, business community, unions, universities and colleges on needs and priorities of newcomer youth. Immigration Partnership Winnipeg (IPW) facilitates that work of the NEYCW as a partner in promoting inclusiveness and collaborative approaches to the provision of services to newcomer youth in Winnipeg.
                         </p>
                     </Col>
                     <Col xs={12} md={6} className='info-card'>
-                        <h2> <FaFlipboard size={100} /> Operating Values</h2>
+                        <h2> <FaPushed size={100} /> Operating Values</h2>
 
                         <ul>
                             <li>
@@ -63,8 +63,8 @@ const About = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col xs={12} md={6} className='info-card'>
-                        <h2> <FaEnvira size={100} /> Purpose</h2>
+                    <Col xs={12} md={6} className='info-card-light'>
+                        <h2> <FaSkyatlas size={100} /> Purpose</h2>
 
                         <ul>
                             <li>
