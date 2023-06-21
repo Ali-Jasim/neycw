@@ -81,6 +81,7 @@ const About = () => {
                             </li>
                         </ul>
                         <Button href='/resources' variant='dark' className='bg-black info-button' ><h4>Check Available Resources</h4></Button>
+                        <br />
                     </Col>
 
                 </Row>
