@@ -2,42 +2,10 @@
   width: 25vw;
 }
 
-.access-img {
-  width: 20rem;
-  height: 30vh;
+.header-nav {
+  color: black !important;
 }
 
-.employment-img {
-  width: 25rem;
-  height: 30vh;
-}
-
-.women-img {
-  width: 15rem;
-  height: 30vh;
-}
-
-.elderly-img {
-  width: 25rem;
-  height: 30vh;
-}
-
-.ethno-img {
-  width: 25rem;
-  height: 30vh;
-}
-
-.rec-img {
-  width: 30rem;
-  height: 30vh;
-}
-
-.mental-img {
-  width: 30rem;
-  height: 30vh;
-}
-
-.language-img {
-  width: 30rem;
-  height: 30vh;
+.header-nav:hover {
+  color: gray !important;
 }

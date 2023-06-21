@@ -13,5 +13,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  border: 0.1rem solid;
+  border-color: black;
+  border-radius: 1%;
   background-color: rgb(255, 255, 255);
+}
+
+.info-button:hover {
+  background-color: rgb(54, 54, 54) !important;
 }

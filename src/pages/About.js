@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Button } from 'react-bootstrap'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import './About.css'
@@ -80,10 +80,12 @@ const About = () => {
                                 <p>Create a safe and inclusive space for LGBTQ newcomer and ethnocultural youth within NEYCW and throughout Winnipeg.</p>
                             </li>
                         </ul>
+                        <Button href='/resources' variant='dark' className='bg-black info-button' ><h4>Check Available Resources</h4></Button>
                     </Col>
+
                 </Row>
 
-
+                <br />
             </Container>
 
             <Footer />

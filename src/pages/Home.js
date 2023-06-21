@@ -13,7 +13,7 @@ const Home = () => {
             <Container fluid className='home-container'>
                 <Row className='home-content'>
                     <Col xs={12} md={8} className='img-container'>
-                        <img className='home-img w-60' src={homeimg} />
+                        <img className='home-img w-20' src={homeimg} />
                     </Col>
 
                     <Col xs={12} md={4} className='home-text-container'>

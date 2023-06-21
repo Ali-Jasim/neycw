@@ -6,7 +6,7 @@ import logo from '../images/logo.png'
 
 const Header = () => {
     return (
-        <Navbar expand="md">
+        <Navbar expand="md" className=''>
 
             <Navbar.Brand className='' href="/">
 
@@ -18,17 +18,17 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
                 <Nav className="">
-                    <Nav.Link href="/">
-                        <h4 className='mx-1 text-dark'>Home</h4>
+                    <Nav.Link href="/" className=''>
+                        <h4 className='mx-1 text-dark display-6 header-nav'>Home</h4>
                     </Nav.Link>
                     <Nav.Link href="/about">
-                        <h4 className='mx-1 text-dark'>About</h4>
+                        <h4 className='mx-1 text-dark display-6 header-nav'>About</h4>
                     </Nav.Link>
                     <Nav.Link href="/resources">
-                        <h4 className='mx-1 text-dark'>Resources</h4>
+                        <h4 className='mx-1 text-dark display-6 header-nav'>Resources</h4>
                     </Nav.Link>
                     <Nav.Link href="/contact">
-                        <h4 className='mx-1 text-dark'>Contact</h4>
+                        <h4 className='mx-1 text-dark display-6 header-nav'>Contact</h4>
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
