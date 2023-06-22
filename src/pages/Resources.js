@@ -24,7 +24,7 @@ import ethno from '../images/ethnocultural.png'
 
 const Resources = () => {
     return (
-        <Container fluid>
+        <Container fluid className='bg-img-resources'>
             <Header />
 
             <Container fluid>

@@ -7,7 +7,7 @@ import { FaConnectdevelop, FaThinkPeaks, FaSkyatlas, FaPushed } from 'react-icon
 
 const About = () => {
     return (
-        <Container fluid>
+        <Container fluid className='bg-img-about'>
             <Header />
 
             <Container fluid>

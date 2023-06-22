@@ -13,6 +13,13 @@
   background-color: rgb(240, 240, 240);
 }
 
+.bg-img-resources {
+  background-image: url("../images/bg-img.jpg");
+
+  background-size: contain;
+  background-repeat: repeat;
+}
+
 .card-text {
   font-size: 2vw;
 }

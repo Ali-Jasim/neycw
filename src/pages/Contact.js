@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row, Form, Button } from 'react-bootstrap'
+import { Container, Row, Form, Button } from 'react-bootstrap'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import './Contact.css'
@@ -7,7 +7,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <Container fluid>
+        <Container fluid className='bg-img'>
             <Header />
 
             <Container fluid>
