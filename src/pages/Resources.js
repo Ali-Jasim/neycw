@@ -58,7 +58,7 @@ const Resources = () => {
                         <br />
                     </Col>
                     <Col xs={12} sm={6} md={6} lg={4} className='d-flex flex-column align-items-center '>
-                        <img className='access-img' src={accessibility} />
+                        <img className='accessbility-img' src={accessibility} />
                         <p className='display-6 card-text'>Accessibility Services</p>
                         <Button href='https://www.ipwinnipeg.org/accessibility-services' variant='dark' className='bg-black learn-more'><h3 classname='mt-2'>Learn More</h3></Button>
                         <br />
@@ -78,7 +78,7 @@ const Resources = () => {
                     </Col>
 
                     <Col xs={12} sm={6} md={6} lg={4} className='d-flex flex-column align-items-center resource-container'>
-                        <img className='access-img' src={wellness} />
+                        <img className='wellness-img' src={wellness} />
                         <p className='display-6 card-text'>Wellness Services</p>
                         <Button href='https://www.ipwinnipeg.org/health-and-wellness-services' variant='dark' className='bg-black learn-more'><h3 classname='mt-2'>Learn More</h3></Button>
                         <br />
