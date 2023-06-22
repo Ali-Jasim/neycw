@@ -17,6 +17,11 @@
   font-size: 2vw;
 }
 
+@media (max-width: 768px) {
+  .card-text {
+    font-size: 5vw;
+  }
+}
 .access-img {
   width: 20rem;
   height: 30vh;
