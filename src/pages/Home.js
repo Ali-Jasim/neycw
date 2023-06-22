@@ -7,7 +7,7 @@ import homeimg from '../images/home_photo.png'
 
 const Home = () => {
     return (
-        <Container fluid>
+        <Container fluid className='bg-img'>
             <Header />
 
             <Container fluid className='home-container'>
