@@ -16,8 +16,9 @@
 }
 
 .home-text {
-  width: fit-content;
-  height: fit-content;
+  width: 50vw;
+  height: 50vh;
+  font-size: 60px;
 }
 
 .nav-button {
