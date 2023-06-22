@@ -16,7 +16,7 @@
 .bg-img-resources {
   background-image: url("../images/bg-img.jpg");
 
-  background-size: contain;
+  background-size: 100% 35%;
   background-repeat: repeat;
 }
 

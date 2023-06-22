@@ -26,6 +26,7 @@
 
 .bg-img-about {
   background-image: url("../images/bg-img.jpg");
+
+  background-size: 100% 75%;
   background-repeat: repeat;
-  background-size: 100% 100%;
 }

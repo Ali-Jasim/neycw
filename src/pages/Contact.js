@@ -7,7 +7,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <Container fluid className='bg-img'>
+        <Container fluid className='bg-img-contact'>
             <Header />
 
             <Container fluid>
