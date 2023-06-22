@@ -4,6 +4,7 @@
 
 .header-nav {
   color: black !important;
+  font-size: 5vh;
 }
 
 .header-nav:hover {

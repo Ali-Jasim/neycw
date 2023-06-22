@@ -80,7 +80,7 @@ const About = () => {
                                 <p>Create a safe and inclusive space for LGBTQ newcomer and ethnocultural youth within NEYCW and throughout Winnipeg.</p>
                             </li>
                         </ul>
-                        <Button href='/resources' variant='dark' className='bg-black info-button' ><h4>Check Available Resources</h4></Button>
+                        <Button href='/resources' variant='dark' className='bg-black info-button' ><h4 className='mt-2'>Check Available Resources</h4></Button>
                         <br />
                     </Col>
 

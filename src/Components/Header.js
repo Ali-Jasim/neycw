@@ -10,7 +10,7 @@ const Header = () => {
 
             <Navbar.Brand className='' href="/">
 
-                <h1 className='display-3'> <img className='' src={logo} />NEYCW</h1>
+                <h1 className='display-3'> <img src={logo} />NEYCW</h1>
 
 
             </Navbar.Brand>
