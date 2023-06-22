@@ -1,0 +1,54 @@
+.resource-title {
+  display: flex;
+  text-align: center;
+}
+
+.learn-more:hover {
+  background-color: rgb(54, 54, 54) !important;
+}
+
+.resource-container {
+  border: 0.1rem solid;
+  border-radius: 1%;
+  background-color: rgb(240, 240, 240);
+}
+
+.access-img {
+  width: 20rem;
+  height: 30vh;
+}
+
+.employment-img {
+  width: 25rem;
+  height: 30vh;
+}
+
+.women-img {
+  width: 15rem;
+  height: 30vh;
+}
+
+.elderly-img {
+  width: 25rem;
+  height: 30vh;
+}
+
+.ethno-img {
+  width: 25rem;
+  height: 30vh;
+}
+
+.rec-img {
+  width: 30rem;
+  height: 30vh;
+}
+
+.mental-img {
+  width: 30rem;
+  height: 30vh;
+}
+
+.language-img {
+  width: 30rem;
+  height: 30vh;
+}

@@ -1,0 +1,11 @@
+.logo-text {
+  width: 25vw;
+}
+
+.header-nav {
+  color: black !important;
+}
+
+.header-nav:hover {
+  color: gray !important;
+}
